@@ -78,14 +78,18 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
+#site-container {
 	background: url(../img/header-bg.jpg) no-repeat center top;
+	background-color: #1a1a1a;
+}
+
+#headerwrap {
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 800px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -118,6 +122,37 @@ a:after {
 	text-align: left;
 	margin-left: 20px;
 	margin-top: 15px;
+}
+
+/* Transition Wrap */
+
+#g {
+	text-align: center;
+	margin-top: 70px;
+	padding-bottom: 70px;
+}
+
+#g h3 {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;	
+}
+
+#g i {
+	font-size: 8px;
+	color: #fff;
+    padding: 3px;
+}
+
+#g p {
+	font-size: 20px;
+	color: #f2f2f2;
+}
+
+#g img {
+	text-align: center;
 }
 
 
